@@ -1,0 +1,15 @@
+img {
+    font-style: italic bold; /* for the alt text, in case the image fails to load in some way */
+    /* 
+    the background image is a low-res, optionally preloaded, version of the target image
+    the purpose of this is to provide a placeholder to load fast in slow connections
+    */
+    background-repeat: no-repeat;
+    background-size: cover; /* or contain, depending on the image */
+
+    shape-margin: 1rem; /* For shape ouside, just in case */
+
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}

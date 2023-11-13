@@ -346,7 +346,17 @@ And a contact form, contact should be sent to your email and stored in a databas
         "email": "email"
     },
     "message": "message",
-    "date": "date"
+    "contact_date_data": {
+        "date": "date",
+        "time": "time"
+    },
+    "appointment_data": {
+        "date": "date",
+        "time": "time",
+        "status": "status"
+        "outcome": "outcome"
+    }
+
 }
 ```
 
@@ -412,25 +422,12 @@ button for modifying the about me page form with a text area for each section ge
 store in database
 Change colors background images fonts etc
 
-####About me
+#### About me
+
 stuff from the database
+![about me](about_me.json)
 
-On time delivery
-Quality work
-
-Tools
-
-Design
-Figma
-Photopea
-Inkscape
-Development
-Vscode
-Windows terminal
-Git
-Node
-
-Legal
+#### Legal
 
 All the legal stuff all should have modals with the text and a button to accept and a button to close and a button to read more and a button to go to the full page should be updateable from the admin dashboard
 
@@ -446,7 +443,7 @@ Conditions
 
 Disclaimer
 
-Faq
+#### Faq
 
 Things you should know before contacting me
 
@@ -477,3 +474,7 @@ Modern looking easy to use clean simple minimalistic lots of white space respons
 Very important accessibility usability performance seo security privacy
 
 Make it responsive
+
+```
+
+```
