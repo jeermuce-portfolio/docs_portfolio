@@ -156,6 +156,11 @@ TODO: I need a better understanding of mongodb to model the data
         "name": Enum("design", "game", "Mobile", "Web", "other"),
         "subcategory":Enum("Full-Stack", "Back-End", "Front-End")//if mobile or web,field is null or absent otherwise
     },
+    "roles":[
+        Enum("designer","front-end developer","back-end developer","full-stack", "database designer","database manager", "project manager", "team leader", "team member",, "scrum master", "product owner", "client", "other"
+        )
+    ]
+    ,
     "structure": {
         "name": Enum("standalone", "composite"),
         "family": {
@@ -175,6 +180,10 @@ TODO: I need a better understanding of mongodb to model the data
                     "link": "Sibling project link",
                 },
             ],
+            "variant": {
+                "name": "Variant project name",
+                "link": "Variant project link",
+            },
         },
     },
     "tech": {
@@ -424,8 +433,31 @@ Change colors background images fonts etc
 
 #### About me
 
-stuff from the database
-![about me](about_me.json)
+shove into database
+
+```markdown
+Hello, my name is Ernesto Muñoz, I'm a web developer with a passion for learning and creating new things.
+
+I'm currently studying Software Engineering at the Autonomous University of Chihuahua and I'm also a Full Stack Web Developer certified by Soy Henry. I'm looking for a job where I can apply my knowledge and learn new things.
+
+Among my interests are video games (Warframe, specifically), software, making things (cooking, baking, woodworking, etc.), and learning new things by doing them.
+
+I value honesty, respect, punctuality, responsibility, and hard work, and do my utmost to live by those values every day.
+
+I believe in the power of continuous learning and strive to be the best person, man, and professional I can be. My educational journey includes pursuing a degree in Software Engineering at the Universidad Autónoma de Chihuahua, where I am gaining a comprehensive understanding of software development.
+
+In addition to my formal education, I successfully completed a Full Stack Web Developer bootcamp at Soy Henry, enhancing my skills in web development. This intensive program, which concluded in October 2023, has equipped me with the practical knowledge and experience needed for real-world projects.
+
+As a web developer, I am proficient in a variety of languages and tools. I leverage JavaScript for general prototyping, CSS and Tailwind for styling in both small and solo projects, and HTML for structuring web content. My proficiency extends to Rust for performance, safety, and low-level operations, while TypeScript is my go-to for large team projects on the frontend. In the backend, I utilize Go for tasks related to networking and backend prototyping.
+
+My expertise also includes database management using SQL, PostgreSQL, and MongoDB, allowing me to design and implement efficient and scalable databases for various applications.
+
+Being detail-oriented, adaptable, and a fast learner, I am committed to delivering high-quality results. I value collaboration and thrive in a team environment, making me a reliable team player.
+
+Outside of the tech world, my interests span from video games, with a particular fondness for Warframe, to various creative pursuits such as cooking, baking, and woodworking. These activities not only contribute to my well-rounded skill set but also serve as a source of inspiration for problem-solving and innovation in my work.
+
+I am actively seeking opportunities to apply my skills and contribute to projects that align with my passion for technology and creativity. Connect with me on LinkedIn and explore my projects on GitHub. I look forward to collaborating and contributing to the ever-evolving world of web development.
+```
 
 #### Legal
 
